@@ -1,0 +1,17 @@
+.footer {
+	width: 100%;
+	padding: 2em;
+	background-color: rgb(0, 0, 74);
+	color: white;
+}
+
+.fLink {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	transition: color 0.2s ease-in;
+}
+
+.fLink:hover {
+	color: rgb(189, 224, 255);
+}
