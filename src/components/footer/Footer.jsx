@@ -9,7 +9,7 @@ const Footer = () => {
         >
             <motion.p
                 className={style.footerText}
-                variants={animations.bottomInVariant}
+                variants={animations.bottomEntryText}
                 initial="hidden"
                 animate="visible"
             >
