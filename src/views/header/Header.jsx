@@ -10,7 +10,7 @@ const Header = ({ view, setView, isVisible }) => (
             <motion.div
                 key={`${view}header`}
                 className={view ? style.header : style.headerSmall}
-                variants={view ? null : animations.topEntryInput}
+                variants={view ? animations.topEntryHeaderWelcome : animations.topEntryHeader}
                 initial="hidden"
                 animate="visible"
                 exit={{ opacity: 0 }}

@@ -1,16 +1,29 @@
 const animations = {
+	topEntryHeaderWelcome: {
+		hidden: {
+			opacity: 1,
+		},
+		visible: {
+			opacity: 1,
+			transition: {
+				delay: 0.1,
+				duration: 0.5,
+				type: "spring",
+			},
+		},
+	},
 	topEntryHeader: {
 		hidden: {
 			opacity: 1,
-			y: "-10px",
+			y: "-100px",
 		},
 		visible: {
 			opacity: 1,
 			y: 0,
 			transition: {
-				delay: 0.1,
+				delay: 0.3,
 				duration: 0.5,
-				type: "spring",
+				type: "tween",
 			},
 		},
 	},
@@ -23,7 +36,7 @@ const animations = {
 			opacity: 1,
 			y: 0,
 			transition: {
-				delay: 0.3,
+				delay: 0.5,
 				duration: 0.5,
 				type: "spring",
 			},
@@ -53,7 +66,7 @@ const animations = {
 			opacity: 1,
 			y: 0,
 			transition: {
-				delay: 0.5,
+				delay: 0.7,
 				duration: 0.5,
 				type: "spring",
 			},
@@ -68,7 +81,7 @@ const animations = {
 			opacity: 1,
 			y: 0,
 			transition: {
-				delay: 0.7,
+				delay: 0.9,
 				duration: 0.5,
 				type: "spring",
 			},
