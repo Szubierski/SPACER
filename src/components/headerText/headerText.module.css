@@ -8,6 +8,7 @@
 	letter-spacing: 0.4em;
 	color: rgb(255, 255, 255);
 	text-shadow: 4px 4px 4px rgb(0, 0, 0);
+	transition: font-weight 0.1s ease-in;
 	cursor: pointer;
 }
 
@@ -15,4 +16,9 @@
 	display: flex;
 	align-items: center;
 	font-size: 1.5em;
+}
+
+.headerText:hover,
+.headerTextSmall:hover {
+	font-weight: 400;
 }

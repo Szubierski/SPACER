@@ -1,0 +1,30 @@
+.element {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 18vw;
+	height: 18vw;
+	margin: 1vw;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1280px) {
+	.element {
+		width: 30vw;
+		height: 30vw;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.element {
+		width: 40vw;
+		height: 40vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.element {
+		width: 90vw;
+		height: 90vw;
+	}
+}

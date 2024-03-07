@@ -1,0 +1,37 @@
+.modal {
+	position: fixed;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100vw !important;
+	height: 100vh !important;
+	top: 0vw;
+	left: 0vw;
+	padding: 3vw;
+	cursor: default;
+}
+
+.container {
+	margin: auto;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color: white;
+	width: 80vw;
+	height: 88vh;
+}
+
+.container img {
+	max-width: 40%;
+	max-height: 90%;
+	margin: 1vw;
+}
+
+.text {
+	max-height: 100%;
+	margin: 1vw;
+	width: 40%;
+	text-wrap: wrap;
+	overflow-y: scroll;
+}

@@ -19,3 +19,20 @@
 	width: 100%;
 	height: 10vh;
 }
+
+/* @media only screen and (max-width: 1280px) {
+	.headerSmall {
+
+	}
+} */
+
+@media only screen and (max-width: 1024px) {
+	.headerSmall {
+		position: sticky;
+		top: 0;
+	}
+}
+
+/* @media only screen and (max-width: 768px) {
+
+} */
