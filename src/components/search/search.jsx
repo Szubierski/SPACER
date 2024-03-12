@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import animations from '../../utils/framer'
 import style from './search.module.css';
 
-const Search = ({ view, setView, setSearchText, handleButtonClick, searchText }) => {
+const Search = ({ view, setView, setSearchText, handleButtonClick }) => {
     const handleClick = () => {
         const inputValue = document.querySelector("input[type=text]").value || "Moon";
         setSearchText(prevValue => prevValue = inputValue);
@@ -25,7 +25,7 @@ const Search = ({ view, setView, setSearchText, handleButtonClick, searchText })
                 name="search"
                 placeholder="e.g. Moon"
                 className={view ? style.searchInput : style.searchInputSmall}
-                key={`${view}1`}
+                key={`${view}2`}
                 variants={animations.topEntryInput}
                 initial="hidden"
                 animate="visible"
@@ -37,7 +37,7 @@ const Search = ({ view, setView, setSearchText, handleButtonClick, searchText })
                 placeholder="e.g. Moon"
                 className={view ? style.searchButton : style.searchButtonSmall}
                 onClick={handleClick}
-                key={`${view}2`}
+                key={`${view}3`}
                 variants={animations.topEntryButton}
                 initial="hidden"
                 animate="visible"

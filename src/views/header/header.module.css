@@ -20,19 +20,10 @@
 	height: 10vh;
 }
 
-/* @media only screen and (max-width: 1280px) {
-	.headerSmall {
-
-	}
-} */
-
 @media only screen and (max-width: 1024px) {
 	.headerSmall {
-		position: sticky;
-		top: 0;
+		flex-direction: column;
+		padding: 4vw 0px;
+		height: auto;
 	}
 }
-
-/* @media only screen and (max-width: 768px) {
-
-} */

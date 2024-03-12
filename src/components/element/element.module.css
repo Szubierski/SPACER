@@ -6,6 +6,7 @@
 	height: 18vw;
 	margin: 1vw;
 	cursor: pointer;
+	box-shadow: 9px 9px 22px -6px rgba(0, 0, 0, 1);
 }
 
 @media only screen and (max-width: 1280px) {

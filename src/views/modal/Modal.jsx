@@ -1,5 +1,6 @@
 import style from "./modal.module.css";
 import Close from "../../components/close/Close"
+import parse from 'html-react-parser';
 
 const Modal = ({ img, title, description }) => {
     return (
@@ -8,7 +9,7 @@ const Modal = ({ img, title, description }) => {
                 <img src={img} alt={title} />
                 <div className={style.text}>
                     <h3>{title}</h3>
-                    <p>{description}</p>
+                    {description == undefined ? null : parse(`${description}`)}
                 </div>
                 <Close />
             </div>

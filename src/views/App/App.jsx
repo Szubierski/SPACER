@@ -12,8 +12,6 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
 
-
-
   useEffect(() => {
     if (loading) {
       const getData = () => {
@@ -25,7 +23,8 @@ function App() {
           console.log("Something gone wrong!");
         });
       }
-      getData();
+
+      setTimeout(getData, 500);
     }
     setLoading(prevValue => false);
   }, [searchText, loading]);
@@ -33,7 +32,6 @@ function App() {
   const handleButtonClick = () => {
     setLoading(true);
   };
-
 
   return (
     <div className={style.App}>
@@ -44,7 +42,7 @@ function App() {
         handleButtonClick={handleButtonClick}
         searchText={searchText}
       />
-      {!view && <Gallery searchText={searchText} data={data} />}
+      {!view && <Gallery searchText={searchText} data={data} loading={loading} />}
       <Footer />
     </div>
   );

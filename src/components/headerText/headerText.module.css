@@ -22,3 +22,19 @@
 .headerTextSmall:hover {
 	font-weight: 400;
 }
+
+@media only screen and (max-width: 1024px) {
+	.headerText {
+		font-size: 8vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.headerText {
+		font-size: 10vw;
+	}
+	.headerTextSmall {
+		font-size: 7vw;
+		font-weight: 300;
+	}
+}

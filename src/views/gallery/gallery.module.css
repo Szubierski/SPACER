@@ -38,4 +38,8 @@ h2 {
 	.gallery {
 		grid-template-columns: auto;
 	}
+	
+	.gallery::-webkit-scrollbar {
+		display: none;
+	}
 }

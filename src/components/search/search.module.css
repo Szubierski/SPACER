@@ -80,3 +80,26 @@
 	color: rgb(128, 196, 255);
 	border: 3px solid rgb(128, 196, 255);
 }
+
+@media only screen and (max-width: 1024px) {
+	.searchInput {
+		font-size: 4vw;
+	}
+	.searchButton {
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.searchInput {
+		font-size: 5vw;
+	}
+	.searchButton {
+		font-size: 5vw;
+	}
+
+	.searchButtonSmall {
+		font-size: 5vw;
+		display: none;
+	}
+}
