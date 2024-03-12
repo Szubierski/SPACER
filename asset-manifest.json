@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Szubierski/SPACER/static/css/main.aadfbac4.css",
-    "main.js": "/Szubierski/SPACER/static/js/main.b6190953.js",
-    "static/media/Default_NASA_space_rocket_starting_from_launchpad_in_night_cle_0_f2554a3f-3e81-49e2-80e2-aab08a70387c_0.jpg": "/Szubierski/SPACER/static/media/Default_NASA_space_rocket_starting_from_launchpad_in_night_cle_0_f2554a3f-3e81-49e2-80e2-aab08a70387c_0.e42e973c2af092938cfd.jpg",
-    "index.html": "/Szubierski/SPACER/index.html",
-    "main.aadfbac4.css.map": "/Szubierski/SPACER/static/css/main.aadfbac4.css.map",
-    "main.b6190953.js.map": "/Szubierski/SPACER/static/js/main.b6190953.js.map"
+    "main.css": "/SPACER/static/css/main.ac6defd3.css",
+    "main.js": "/SPACER/static/js/main.b6190953.js",
+    "static/media/Default_NASA_space_rocket_starting_from_launchpad_in_night_cle_0_f2554a3f-3e81-49e2-80e2-aab08a70387c_0.jpg": "/SPACER/static/media/Default_NASA_space_rocket_starting_from_launchpad_in_night_cle_0_f2554a3f-3e81-49e2-80e2-aab08a70387c_0.e42e973c2af092938cfd.jpg",
+    "index.html": "/SPACER/index.html",
+    "main.ac6defd3.css.map": "/SPACER/static/css/main.ac6defd3.css.map",
+    "main.b6190953.js.map": "/SPACER/static/js/main.b6190953.js.map"
   },
   "entrypoints": [
-    "static/css/main.aadfbac4.css",
+    "static/css/main.ac6defd3.css",
     "static/js/main.b6190953.js"
   ]
 }
